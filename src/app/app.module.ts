@@ -4,14 +4,15 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import {BackgroundModule} from "maxxrl-background";
 
+
 @NgModule({
   declarations: [
     AppComponent
   ],
-    imports: [
-        BrowserModule,
-        BackgroundModule
-    ],
+  imports: [
+    BrowserModule,
+    BackgroundModule
+  ],
   providers: [],
   bootstrap: [AppComponent]
 })
